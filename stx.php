@@ -1,6 +1,9 @@
 <?php
-# esta função reune várias formas de tirar caracteres especias da string;
-# aldosena10@gmail.com
+# Esta função reune várias formas de tirar caracteres especias da string;
+# Pode converter a string para maiúscula ou minúscula
+# Contato: aldosena10@gmail.com
+# Alterado em: 12/08/2021
+# Fonte: https://github.com/aldosena/stx/edit/main/stx.php
 function stx($texto, $letra){
 	$e = trim($texto);
 	$ero = str_replace("'","",$e);	
@@ -18,5 +21,4 @@ function stx($texto, $letra){
 };
 // exemplo de uso:
 // $casa = stx($x,"A");
-// atualizada em 2021-04-23
 ?>
