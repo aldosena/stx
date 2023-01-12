@@ -2,7 +2,7 @@
 # Esta função reune várias formas de tirar caracteres especias da string;
 # Pode converter a string para maiúscula ou minúscula
 # Contato: aldosena10@gmail.com
-# Alterado em: 12/01/2022
+# Alterado em: 12/01/2023
 
 # Fonte: https://github.com/aldosena/stx/edit/main/stx.php
 function stx($texto, $letra="x"){
