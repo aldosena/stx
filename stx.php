@@ -2,15 +2,14 @@
 # Esta função reune várias formas de tirar caracteres especias da string;
 # Pode converter a string para maiúscula ou minúscula
 # Contato: aldosena10@gmail.com
-# Alterado em: 12/01/2023
+# Alterado em: 26/01/2023
 
 # Fonte: https://github.com/aldosena/stx/edit/main/stx.php
 function stx($texto, $letra="x"){
 	$e = trim($texto);
 	$ero = str_replace("'","",$e);	
 	$erotic = str_replace('"','',$ero);  
-	$sex = htmlspecialchars($erotic, ENT_QUOTES);
-	// $eroti = $erot;
+        $sex = htmlspecialchars($erotic, ENT_QUOTES, "UTF-8");
   if ($letra == "A"){ 
 		$sexy = strtoupper($sex); 
 	}elseif( $letra == "a"){ 
